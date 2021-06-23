@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b3e0ff"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/btn_mypage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/mypage">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/loading">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_notice"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/notice">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#ffffff">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+        <ImageButton
+            android:id="@+id/btn_door"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/record">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_phone"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/phone"
+            android:textStyle="bold">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <ImageButton
+            android:id="@+id/btn_cctv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/cctv">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_ele"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ele">
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

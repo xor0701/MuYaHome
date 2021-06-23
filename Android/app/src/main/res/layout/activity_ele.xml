@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/popup"
+    android:layout_gravity="center"
+    android:layout_height="200dp"
+    android:layout_width="300dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_height="53sp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="엘리베이터 호출"
+        android:id="@+id/titleTV"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="현재"
+        android:layout_marginLeft="70dp">
+    </TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="00"
+        android:id="@+id/elefloor"
+        android:layout_marginLeft="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="층"
+        android:layout_marginLeft="5dp">
+    </TextView>
+
+</LinearLayout>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:textSize="15sp"
+        android:text="호출"
+        android:id="@+id/btnok"
+        android:onClick="mok"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:textSize="15sp"
+        android:text="취소"
+        android:id="@+id/cancelbtn"
+        android:onClick="mcancel"/>
+
+</LinearLayout>
+
+</LinearLayout>

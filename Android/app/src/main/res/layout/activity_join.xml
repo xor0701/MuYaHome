@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b0e0ff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/join_backbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/previous">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/loading">
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="100dp">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#FFFFFFFF">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="회원 가입"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp">
+
+        <EditText
+            android:id="@+id/join_hostcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:hint="세대코드(Code)"
+            android:backgroundTint="#2180d5"
+            android:singleLine="true"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/codecheck"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/search">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp">
+
+        <EditText
+            android:id="@+id/join_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:hint="아이디(ID)"
+            android:backgroundTint="#2180d5"
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/idcheck"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:background="@drawable/checkbtn">
+        </ImageButton>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/join_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="비밀번호"
+        android:backgroundTint="#2180d5"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/join_pwcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="비밀번호확인"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:backgroundTint="#2180d5"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/join_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="이름"
+        android:backgroundTint="#2180d5"
+        android:singleLine="true"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/join_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="전화번호"
+        android:singleLine="true"
+        android:backgroundTint="#2180d5"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+
+
+
+    <ImageButton
+        android:id="@+id/join_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:background="@drawable/joinbtn_disenable"/>
+
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cancelbtn"/>
+
+
+</LinearLayout>

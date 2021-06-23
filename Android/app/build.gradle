@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.example.testapp2"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.android.support:design:29.1.1'
+
+    implementation 'gun0912.ted:tedpermission:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    //Retrofit 라이브러리 추가
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+
+    //json을 사용하기 위한 gson라이브러리 추가
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+
+    // TextInputLayout을 사용하기 위한 라이브러리 추가
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'org.conscrypt:conscrypt-android:2.5.0'
+
+    compile 'com.koushikdutta.ion:ion:2.2.1'
+}
