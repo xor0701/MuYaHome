@@ -83,13 +83,6 @@
 ### Arduino 회로도
 ◎ 7-Segment(엘리베이터 층수) 회로도
 ![1](https://user-images.githubusercontent.com/86356725/123236831-1731c080-d518-11eb-8beb-350f946e9a8d.png)
+
 ◎ PIR 센서 회로도
 ![2](https://user-images.githubusercontent.com/86356725/123236865-1f89fb80-d518-11eb-967f-296b2412bae9.png)
-
-
-
-
-
-
-
-
