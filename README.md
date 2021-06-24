@@ -43,4 +43,15 @@
 	- 감지 각도 : 트리거(트리거 L 트리거를 반복할 수 없음
 	- 감지거리 : 최대 110
 6. Android Smartphone
-	-SAMSUNG Galaxy Note 20
+	- SAMSUNG Galaxy Note 20
+###  소프트웨어
+1. Arduino IDE
+2. Android OS
+3. Node.js 서버
+4. MySQL 데이터베이스
+5. PYTHON 모듈을 이용한 얼굴인식
+###개발환경
+1. Arduino IDE
+  2. Android Studio
+  2. Visual Studio Code
+  3. Naver Cloud Platform
