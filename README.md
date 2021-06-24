@@ -64,5 +64,32 @@
 4. JAVA Script
 
 ### APP UI 모듈 및 시나리오
+![4](https://user-images.githubusercontent.com/86356725/123236207-91157a00-d517-11eb-94bb-e9b7fb62e9a3.png)
 ![noname03](https://user-images.githubusercontent.com/86356725/123236126-7ba05000-d517-11eb-9fef-403ca265d122.png)
+![1](https://user-images.githubusercontent.com/86356725/123236284-a38fb380-d517-11eb-8f5c-b1dafa8bb90d.png)
+![2](https://user-images.githubusercontent.com/86356725/123236302-a68aa400-d517-11eb-8a3b-9d617be385b4.png)
+
+### 출입 시나리오
+![1](https://user-images.githubusercontent.com/86356725/123236400-ba360a80-d517-11eb-8e21-23b3c8487bf0.png)
+![2](https://user-images.githubusercontent.com/86356725/123236413-bbffce00-d517-11eb-9133-3ec876158616.png)
+![3](https://user-images.githubusercontent.com/86356725/123236447-c4580900-d517-11eb-8201-c8c044162345.png)
+
+### API
+![1](https://user-images.githubusercontent.com/86356725/123236601-e6518b80-d517-11eb-8e33-52e1665f4bfb.PNG)
+
+### DB 모듈
+![2](https://user-images.githubusercontent.com/86356725/123236651-f2d5e400-d517-11eb-880d-502a05e3778e.png)
+
+### Arduino 회로도
+◎ 7-Segment(엘리베이터 층수) 회로도
+![1](https://user-images.githubusercontent.com/86356725/123236831-1731c080-d518-11eb-8beb-350f946e9a8d.png)
+◎ PIR 센서 회로도
+![2](https://user-images.githubusercontent.com/86356725/123236865-1f89fb80-d518-11eb-967f-296b2412bae9.png)
+
+
+
+
+
+
+
 
