@@ -49,9 +49,17 @@
 2. Android OS
 3. Node.js 서버
 4. MySQL 데이터베이스
-5. PYTHON 모듈을 이용한 얼굴인식
-###개발환경
+5. PYTHON 모듈을 이용한 얼굴 인식
+
+
+### 개발환경
 1. Arduino IDE
-  2. Android Studio
-  2. Visual Studio Code
-  3. Naver Cloud Platform
+2. Android Studio
+3. Visual Studio Code
+4. Naver Cloud Platform
+### 개발언어
+1. PYTHON
+2. XML
+3. JAVA
+4. JAVA Script
+5. 
